@@ -1,0 +1,293 @@
+<html> <!-- Açıklama kısmı böyle yapılır.Ayrıca bütün kodlar bu iki etiket arası yazılır -->
+<head> <!-- Sayfa açıklama bölümü etiketi.Bunun içine tittle yazılır(zorunlu) ya da javascript ve Css kodlarıyazılır-->
+
+<title>Android Eğitimi </title> <!-- Sayfanın başlığı gösterilir burada-->
+ <meta name="keywords" CONTENT="Deneme,ilk,Başlangıç,Yazılım"> <!-- Sitenizin içeriğini oluşturan kelimelerin bulunduğu etikettir.-->
+ <meta name="description" content="Sitemiz deneme amaçlıdır"> <!-- Bu etiket site hakkında bilgi veren temel etiketlerden biridir.-->
+ <meta name="Author" content="Ali RİFAİ BEDİR,rifai_bedir_80@hotmail.com"> <!--Site yapımcısının adı, iletişim bilgilerinin bulunduğu etikettir. -->
+ <!-- Tüm meta etiketleri <head> .. </head> kodları arasına yazılır-->
+ 
+</head>
+
+
+
+<body text="blue" bgcolor="red" > <!-- Sayafanın içeriğidir burada renk verdik hem yazıya hm arka plana -->
+ <h1>  Sitenin Başlığı bu etiketler arasında yazılır </h1>
+
+ <p>Burada paragrafyani yazı yazılyor.Dikkat edilmesi gereken nıkta başka paragraf için aynı  etiketler arası başka etiket açılmalıdr </p> 
+ <p>Burada gözüktüğü gibi yani alt satıra gitmek için bu etiketten tanımlamak gerekir ayrı olarak</p>
+ 
+ <h2> İşte burada bir alt başlık tanımladım mesela </h2>
+ 
+ <ul> <!-- Numaralanmamış(unnumbered listt) liste tanımlaması  bu etiketler arası yapılır -->
+         <li>Fortran</li>
+         <li>Cobol</li>
+         <li>Basic</li>
+         <li>Pascal</li>
+         <li>C/C++</li>
+  
+ </ul>
+ 
+  <ol>  <!-- Numaralanmış(ordered number list) liste tanımlaması  bu etiketler arası yapılır -->
+        <li>Fortran</li>
+        <li>Cobol</li>
+        <li>Basic</li>
+        <li>Pascal</li>
+        <li>C/C++</li>
+    </ol>
+	
+	
+	
+	<!-- Burada karışık listeleme yapılmıştır -->
+	<h3> Karışık Listeleme Yapıldı </h3>
+	<ul>
+       <li> Türkiyeni  İlleri </li>
+	      <ol> 
+           <li> Kocaeli </li>
+		   <li> Ankara </li>  		   
+		  </ol>
+		<li> Türkiyeni  İlceleri </li>  
+		    <ol> 
+           <li> İZMİT </li>
+		   <li> BAĞCILAR </li>  		   
+		  </ol>
+		  
+	   
+	</ul>
+	
+	
+	
+	
+	
+	<h3>TÜRKİYE-ŞEHİRLER</h3>
+    <h3>ÜLKELER VE NÜFUSLARI</h3>
+<pre>
+
+<!--
+Sabit genişlikli bir yazıtipi içinde bir metin oluşturmak istediğiniz takdirde, HTML'in  etiketini kullanabilirsiniz.
+pre terimi, İngilizce preformatted (önceden biçimlendirilmiş) sözcüğünden alınmıştır. Bu etiket ayrıca metin içindeki boşlukları,
+satır başlarını ve tab'ları da anlamlı hale getirir.
+etiketi, width özelliğiyle birlikte kullanılarak bir satır içinde yer alabilecek en fazla karakter sayısı da belirlenebilir.
+etiketleri arasında hiperlinkler (hyperlink) kullanılabilir. Bununla birlikte,  etiketleri arasında, diğer etiketlerin kullanılmasından kaçınmak gerekir.
+Aşağıdaki örnekte ülkeler ve nüfusları önceden belirlenmiş bir biçimde web sayfası üzerine yerleştirilmek isteniyor.
+HTML kodunda ilerde daha ayrıntılı olarak ele alacağımız hiperlink oluşturma ve bu bağlantı tıklandığı takdirde buna bağlı dosyayı ekranda görüntülemeyle ilişkili küçük bir örnek de yer almaktadır.
+Aşağıdaki HTML kodu çağrılınca ekranda alt çizgili ve mavi renkte bir "DAHA FAZLA BİLGİ İÇİN" ifadesi belirecektir.
+Bu bir hiperlink'tir ve tıklandığında X.htm dosyası çağrılmaktadır-->
+
+
+
+ÜLKE ADI       NÜFUSU (MİLYON KİŞİ)
+TÜRKİYE           65  
+AVUSTURYA         8
+ABD               230
+ALMANYA           80
+<a href="Ali.htm"> Daha fazla bilgi için tıklayın </a>
+
+</pre>
+
+
+ <h3 align="center">ÜLKELER VE NÜFUSLARI</h3>
+ <!-- <br> etiketi, bulunduğu konumdan itibaren bir satırı sona erdirerek yeni bir satırın başına geçilmesini sağlar.
+ Burada verdiğimiz align ile başlıö ortalandı -->
+ 
+  <p>Avusturya 8 milyon nüfuslu bir Orta Avrupa <br>ülkesidir.
+   Almanca resmi dilidir. Doğası itibariyle <br>dünyanın en güzel 
+ülkelerinden biridir.</p>
+  <p>Macaristan bir diğer Orta Avrupa <br>ülkesidir.
+  Nüfusu 10 milyondur. Komşuları genelde dağlık <br>birer ülke 
+olmalarına karşın Macaristan düz ovaları ve atlarıyla ünlüdür.</p>
+
+</p>
+
+
+<h3>ÜLKELER VE NÜFUSLARI</h3>
+ <!-- <hr> etiketi, tarayıcı penceresinde yatay bir çizgi üretir. Bu çizginin uzunluğu kod içinde belirtilebilir.-->
+   <p><hr>
+   Avusturya 8 milyon nüfuslu bir Orta Avrupa <br>ülkesidir.
+   Almanca resmi dilidir. Doğası itibariyle <br>dünyanın en güzel 
+ülkelerinden biridir.</p>
+  <p><hr>
+  Macaristan bir diğer Orta Avrupa <br>ülkesidir.
+  Nüfusu 10 milyondur. Komşuları genelde dağlık <br>birer ülke 
+olmalarına karşın Macaristan düz ovaları ve atlarıyla ünlüdür.</p>
+
+
+
+<dfn>ALGORİTMA </dfn>
+ <!-- Bir metnin istenilen kısmını belirgin hale getirmek için kullanılır.<em> ve </em> etiketleri arasındaki kısım tipik olarak italik biçimde görüntülenir.-->
+ <p>Algoritma bir problemi çözmek için izlenmesi gereken<em> işlem adımları kümesidir.</em></p>
+	
+	 
+	 
+	  <!-- Uygulandıkları metnin üzerine bir çizgi çizilmesini sağlarlar.-->
+ <h3> TEKNOKRATLAR </h3> 
+     <s>Bütün mimarlar</s> yüksek, mühendisler de <br>
+     Bir sen kaldın<strike> alçak mimar</strike> ey Sinan Usta!<br>
+Cemal Süreya
+
+
+
+	 
+	 <!-- İşaretlediği metnin altına bir alt çizgi çekilmesini sağlar..-->
+<h3> DİVAN EDEBİYATI </h3> 
+    <dfn>FUZULİ</dfn><br><br>
+    <strong>Öyle sermestemki idrak etmezem dünya nedür<br>
+            Men kimem saki olan kimdür mey-i sahbah nedür</strong>
+			
+			
+			
+			 <!-- <b> ve </b> etiketleri arasına alınan metin, koyu (bold) hale getirilir.-->
+			<h3>Attila İlhan</h3>
+    Ne <b>kadınlar sevdim</b>,zaten <b>yoktular</b><br>
+    Böyle bir sevmek <b>görülmemiştir</b>
+	
+	
+	
+	
+		 <!-- <i> ve </i> etiketleri arasına alınan metin, italik (eğik yazı biçimi) hale getirilir.-->
+	<h3>Behçet Necatıgil</h3>
+    Her çocuk bir <b><i>nur topudur</i></b><br>
+    Paçavralar içine bile düşse<br>
+    Bir nur topudur<br>
+    <b><i>Dar çağlara</i></b> gelmese<br>
+    Değmese hoyrat ayaklar<br>
+    Çamurlara belenmese<br>
+    Her çocuk bir nur topudur
+	
+	
+	
+	
+		 <!-- İşaretlediği metnin altına alt çizgi çekilmesini sağlar.-->
+ <h3>Önce <u>Dürüst</u> olunuz</h3>
+    <h3>Bunun dışındaki <u>Her şey ikinci plandadır</u></h3>
+	
+	
+	
+	
+	
+ <!-- HTML'in önemli özelliklerinden biri, bir metin parçası ya da bir resim üzerinden başka bir belgeye bağlantı kurabilmesidir. 
+ Bu bağlantı, link adı verilen yapılar sayesinde gerçekleştirilmektedir. Bir resim ya da metnin rengi değiştirilerek ya da 
+ metin alt çizgili hale getirilerek bu resim ya da metnin bir hipermetin linki (hypertext link) ya da sadece link olduğu belirtilir.
+Bir link oluşturmak için aşağıdaki adımlar izlenmelidir:
+
+<a sembolü ile başlanır.
+href="DosyaAdı" ifadesi yerleştirilir. Burada DosyaAdı parametresi, oluşturulan link yardımıyla çağrılacak olan dosyanın adıdır.
+> sembolünü yerleştiriniz.
+Linki oluşturacak metni giriniz.
+</A> etiketiyle ifadeyi tamamlayınız.-->
+<a href="http://gelecegiyazanlar.turkcell.com.tr">Anasayfa</a>
+<br> </br>
+
+
+
+
+
+
+
+
+
+<!-- URL, bir adres bilgisidir. Web tarayıcıya işaret edilen dosyanın nerede bulunduğunu gösterir.
+ URL'ler, dosyaların Web ya da yerel sabit diskiniz üzerindeki yerini işaret eder.
+
+Bir URL'in genel yapısı aşağıdaki gibi üç kısımdan oluşur:
+
+Erişilecek olan kaynağın tipi (Web, FTP vb.)
+Sunucunun adresi
+Dosyanın yeri
+Bir URL'in yazılış biçimi aşağıdaki gibidir:
+
+KaynakTipi://host.saha [:port]/yol/DosyaAdı
+KaynakTipi parametresi aşağıdakilerden biri olabilir:
+
+file: Yerel sisteminizdeki bir dosya adıdır. Yerel erişim söz konusudur.
+ftp: Erişilecek kaynak bir FTP sunucusundaki dosyadır.
+http: Erişilecek kaynak World Wide Web üzerindeki bir sunucuda bulunan dosyadır.
+
+
+_blank :	sayfayı yeni bir pencere ya da sekmede açar.
+_self	:sayfayı aynı çerçevede açar. (öntanımlı olan özelliktir)
+_parent 	:sayfayı bir üst çerçevede açar.
+_top	:sayfayı en üst çerçevede açar.
+
+
+Target özelliği
+Target özelliği sayesinde, bağlanan web sitesinin nerede açılacağını belirleyebilirsiniz. 
+Örneğin adresin yeni bir sayfada açılmasını sağlamak için aşağıdaki HTML kodunu girmek gerekir.
+-->
+
+
+<a href="http://gelecegiyazanlar.turkcell.com.tr" target="_blank">Turkcell Geleceği Yazanlar</a>
+<br> </br>
+
+
+
+
+
+
+<!---Tarayıcılar resim ve görüntü dosyalarını gösterebilir. 
+İnternet'te yaygın olarak kullanılan dosya tipleri bitmap (.bmp), GIF, JPEG ve PNG şeklinde sıralanabilir.
+ Bu eğitim içeriğinde web sayfanıza bir görseli nasıl ekleyeceğinizi göreceksiniz.
+
+Kod şablonumuz şu şekilde olacak:
+
+<img src="resimkonumu/resimadi">
+
+
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg"  width="50" height="50" align="center" />
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg"  width="50" height="50" align="top" />
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg" width="50" height="50" align="bottom" />
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg" width="50" height="50" />
+
+-->
+<h4>  Görsel Ekleme</h4>
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg"   width="50" height="50"  align="left" />
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg"  width="50" height="50" align="right" />
+<br> </br>
+<br> </br>
+
+
+<h4> Bir Görsele Çerçeve Ekleme</h4>
+<!--Web sayfası üzerinde görüntülenecek olan görselin çerçeve kalınlığı border= parametresiyle belirlenebilir.
+ Oluşturulacak çerçevenin kalınlığını piksel cinsinden belirtebilirsiniz.-->
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg" width="50" height="50" border="5"
+<br> </br>
+
+
+
+
+<!-- Arama motorları sitenizdeki içerikleri ve görselleri de listeleyebilmektedir.
+ Alternatif metin kullanımı arama motorlarından daha fazla ziyaretçinin gelmesini sağladığı gibi, 
+ sitenizi görme engellilerin de kullanabilmesi için de önemli bir avantaj sunar. Bu amaçla alt= parametresini kullanabilirsiniz.
+ Alt parametresiyle belirtilen metin, görsel herhangi bir nedenle görüntülenemediği takdirde sayfaya aktarılır.
+Standart web tarayıcılarda bu metin, fare imleçi resmin üzerine götürülünce ekranda görüntülenir.-->
+<h3>HTML'de resim ve alternatif metin görüntüleme</h3>
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg" alt="Resim için alternatif metin" height="100" width="65"> 
+<br> </br>
+<br> </br>
+
+
+
+<h4> Bir Görseli Tanmlı Link gibi Kullanma</h4>
+<!--Bir görseli bir hipermetin link (bağlantı) oluşturmak için kullanılabilir. 
+Bu sayede kullanıcılar bir görsele tıkladıklarında farklı bir adrese ya da o görselin daha büyük haline yönlendirilebilirler.
+Bir bağlantıya dönüştürülmüş olan görsellerin etrafı öntanımlı olarak mavi renge boyanır.-->
+<a href="https://gelecegiyazanlar.turkcell.com.tr">
+<img src="https://gelecegiyazanlar.turkcell.com.tr/sites/default/files/2014_degerlendirme.jpg" alt="Geleceği Yazanlar Ana Sayfa" width="100" height="100" border="3">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
